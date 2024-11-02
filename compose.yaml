@@ -1,0 +1,16 @@
+services:
+  server:
+    container_name: php-server
+    build:
+      context: .
+    ports:
+      - 9000:80
+    develop:
+      watch:
+        - action: sync
+          path: ./src
+          target: /var/www/html
+        - action: rebuild
+          path: composer.json
+        - action: rebuild
+          path: composer.lock

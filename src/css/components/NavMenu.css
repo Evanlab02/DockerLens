@@ -1,0 +1,19 @@
+.dk-nav-menu {
+    background-color: #063ab6;
+    padding: 10px;
+}
+
+.dk-nav-menu a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.dk-nav-menu a:hover {
+    text-decoration-thickness: 3px !important;
+    text-decoration: underline;
+    transition: 0.3s;
+}
