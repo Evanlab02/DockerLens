@@ -57,6 +57,6 @@ try {
     <tbody>
         <?php
         createRows($containers);
-        ?>
+?>
     </tbody>
 </table>
