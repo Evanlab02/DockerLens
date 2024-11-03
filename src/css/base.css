@@ -1,7 +1,7 @@
 html {
     background-color: #141b1f;
     color: white;
-    font-style: Roboto sans-serif;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -9,6 +9,36 @@ body {
     margin: 0;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #818181;
+    padding: 11px;
+    font-size: 16px;
+}
+
+tr:nth-child(2n) {
+    background-color: #111;
+}
+
+thead {
+    background-color: #063ab6;
+}
+
+a {
+    text-decoration: underline;
+    color: #038cfc;
+}
+
 .dk-content {
     margin: 16px;
+}
+
+.table-align-left {
+    text-align: left;
 }
