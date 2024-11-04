@@ -2,11 +2,14 @@
 
 DockerLens is a tool for managing and monitoring Docker containers on your Docker host. It’s designed for those who rely on Docker or Docker Compose to run home lab projects and want a streamlined interface to oversee container performance and system usage.
 
-With DockerLens, you can:
+With DockerLens, you will be able to:
 
 - **View Containers:** See all running containers and monitor their resource usage.
 - **Manage Images:** Browse and organize Docker images on your host.
 - **Get System Overviews:** Access high-level insights into Docker’s overall resource usage.
+
+**NOTE: Still under development, so some of these features are still to be implemented.**
+
 ## Stack
 
 This project leverages a range of technologies across both client and server sides for robust and flexible functionality:
