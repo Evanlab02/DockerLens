@@ -8,8 +8,11 @@ services:
     develop:
       watch:
         - action: sync
+          path: ./public
+          target: /var/www/html/public/
+        - action: sync
           path: ./src
-          target: /var/www/html
+          target: /var/www/html/src/
         - action: rebuild
           path: composer.json
         - action: rebuild

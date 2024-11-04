@@ -17,7 +17,9 @@ down:
 .PHONY: format
 format:
 	./vendor/bin/php-cs-fixer fix src
+	./vendor/bin/php-cs-fixer fix public
 
 .PHONY: lint
 lint:
 	./vendor/bin/php-cs-fixer check src
+	./vendor/bin/php-cs-fixer check public

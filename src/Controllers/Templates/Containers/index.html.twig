@@ -1,0 +1,21 @@
+<h1>Containers</h1>
+<table>
+    <thead>
+        <tr>
+            <th class='table-align-left'>Name</th>
+            <th class='table-align-left'>Image</th>
+            <th class='table-align-left'>State</th>
+            <th class='table-align-left'>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for container in containers %}
+        <tr>
+            <td>{{ container.name }}</td>
+            <td>{{ container.image }}</td>
+            <td>{{ container.state }}</td>
+            <td>{{ container.status }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
