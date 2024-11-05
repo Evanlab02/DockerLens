@@ -4,6 +4,7 @@ Below you can find the outline of the projects roadmap.
 
 ## V0.1.0
 
+- Split pages where necessary. (Not started)
 - Documentation on initial implementation. (Not started)
 - Pipelines/Workflows. (Not started)
     - Linting. (Not started)

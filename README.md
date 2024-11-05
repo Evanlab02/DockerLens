@@ -40,6 +40,7 @@ This project leverages a range of technologies across both client and server sid
 2. Set up Docker and Docker Compose on your machine if you haven’t already.
 3. Run Docker Compose to start DockerLens: `docker compose up -d`
 4. Open your browser and navigate to `http://localhost:9000` to start managing your containers with DockerLens.
+5. Open your browser and navigate to `http://localhost:9001` to view the documentation for DockerLens.
 
 ## Contributing
 

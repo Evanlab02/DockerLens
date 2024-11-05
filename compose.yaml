@@ -1,6 +1,6 @@
 services:
   server:
-    container_name: php-server
+    container_name: docker-lens-server
     build:
       context: .
     ports:
@@ -17,3 +17,9 @@ services:
           path: composer.json
         - action: rebuild
           path: composer.lock
+  docs:
+    container_name: docker-lens-docs
+    build:
+      context: ./docs
+    ports:
+      - 9001:80
