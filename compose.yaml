@@ -17,6 +17,7 @@ services:
           path: composer.json
         - action: rebuild
           path: composer.lock
+
   docs:
     container_name: docker-lens-docs
     build:
